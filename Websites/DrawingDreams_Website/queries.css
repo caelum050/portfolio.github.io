@@ -1,0 +1,233 @@
+/*---------Resolution to 767px----------*/
+
+@media only screen and (min-width: 767px) {
+
+    /*---------Header----------*/
+
+    .sidenav {
+        display: none;
+    }
+
+    .icon-left {
+        display: none;
+    }
+
+    .header-icons {
+        padding-bottom: 38px;
+        
+    }
+
+    .header-nav {
+        display: inline;
+        text-align: center;
+    }
+
+    .header-nav a {
+        text-decoration: none;
+        text-align: center;
+        display: inline-block;
+        padding: 8px 30px 8px 30px;
+        color: #f7f7f7;
+        transition: 0.3s;
+        
+    }
+
+    .header-nav a:hover {
+        color: darkblue;
+    }
+
+    /*---------Main Body----------*/
+
+    /*---------Features Section----------*/
+
+    .main-image h2 {
+        width: 75%;
+        transform: translate(10%, -25%);
+    }
+
+    .features-items {
+        width: 45%;
+        display: inline-block;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    /*---------Slideshow Section----------*/
+
+    .slideshow-container {
+        max-width: 100%;
+        height: 5vh;
+        
+    }
+
+    /*---------Buy Options----------*/
+
+    .store-item {
+        width: 45%;
+        display: inline-block;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+
+
+    /*---------Stores Section----------*/
+
+    .stores-items {
+     
+        margin-right: 25px;
+        width: 46%;
+    }
+
+    /*---------Subscribe Section----------*/
+
+    input[type=email] {
+        margin-right: 15px;
+        padding: 10px;
+    }
+
+    input[type=submit] {
+        padding: 15px 30px;
+    }
+
+}
+
+
+
+
+/*---------Resolution to 1023px----------*/
+
+@media only screen and (min-width: 1023px) {
+    /*---------Header----------*/
+    
+    .header-nav a {
+        padding-left: 65px;
+        padding-right: 65px;
+    }
+    
+
+    /*---------Main Body----------*/
+
+    /*---------Features Section----------*/
+
+    .features-items {
+        width: 45%;
+    }
+
+    /*---------Buy Options----------*/
+
+    .store-item {
+        width: 45%;
+    }
+
+    .workshop-image {
+        object-fit: fill;
+    }
+
+    /*---------Stores Section----------*/
+
+    .stores-items {
+        max-width: 43%;
+        display: inline-block;
+    }
+
+    .stores-content {
+        display: inline-block;
+        max-width: 50%;
+        padding-left: 100px;
+    }
+
+    .store-images {
+        display: inline-block;
+        width: 45%;
+        padding-left: 75px;
+    }
+
+    /*---------Workshop Section----------*/
+
+    .workshop h2 {
+        padding-bottom: 25px;
+        width: 49%;
+        transform: translateY(200%);
+        padding-left: 50px;
+        
+    }
+
+    .workshop p {
+        display: inline-block;
+        width: 45%;
+        transform: translateY(-100%);
+    }
+
+    .workshop-image {
+        display: inline-block;
+        width: 45%;
+    }
+
+    /*---------Subscribe Section----------*/
+
+    .subscribe-section {
+        text-align: center;
+    }
+
+    input[type=email] {
+        width: 25%;
+    }
+
+    /*---------Footer----------*/
+
+    .footer-paragh {
+        margin-top: 50px;
+    }
+
+}
+
+/*---------Resolution to 1300px----------*/
+
+@media only screen and (min-width: 1300px) {
+
+    /*---------Header----------*/
+    
+    .header-nav a {
+        padding-left: 85px;
+        padding-right: 85px;
+    }
+    
+    /*---------Main Body----------*/
+
+    /*---------Features Section----------*/
+
+    .main-image h2 {
+        font-size: 50px;
+    }
+
+    .features-items {
+        width: 24%;
+        margin: 0;
+    }
+
+    .features-conntainer {
+        width: 100%;
+        height: 35vh;
+    }
+
+    .slideshow {
+        padding-top: 10px;
+    }
+
+    /*---------Slideshow Section----------*/
+
+    .slideshow img {
+        max-width: 100%;
+        height: 50vh;
+        
+    }
+
+    /*---------Stores Section----------*/
+
+    .stores-content {
+        transform: translateY(-50%);
+    }
+
+   
+}
