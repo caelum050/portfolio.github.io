@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dice Game</title>
+</head>
+
+<body>
+    
+    <main>
+        <section id="playSection">
+            <h1>Welcome to Dice Game</h1>
+            <button id="playButton">Play</button>
+            <h3>Press the Match button when 2 equal sides match</h3>
+            <button id="matchButton">Match</button>
+            <h3>Score: <span id="score">0</span></h3>
+        </section>
+
+        <section id="dicesSection">
+            <div id="dice01">
+                <img id="dice01-image" src="Images/Dice_one.png">
+            </div>
+            <div id="dice02">
+                <img id="dice02-image" src="Images/Dice_one.png">
+            </div>
+        </section>
+
+        <audio id="correctAudio">
+            <source src="Audio/Correct-answer.mp3">
+        </audio>
+
+        <audio id="wrongAudio">
+            <source src="Audio/Error-beep-sound-effect.mp3">
+        </audio>
+    </main>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>

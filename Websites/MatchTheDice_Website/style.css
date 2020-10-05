@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    text-align: center;
+    background-color: gray;
+}
+
+#playSection {
+    background: linear-gradient( rgba(46, 6, 189, 0.521), rgba(103, 75, 206, 0.267));
+    padding: 15px;
+    border-bottom: 3px solid black;
+}
+
+#playSection h1 {
+    font-size: 32px;
+    padding-bottom: 15px;
+}
+
+#playSection h3 {
+    font-size: 24px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#playButton {
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background-color: #555555;
+    padding: 12px 28px;
+}
+
+#matchButton {
+    font-size: 16px;
+    border-radius: 48%;
+    border: none;
+    color: white;
+    background-color: #866363;
+    padding: 12px 28px;
+    margin: 4px 2px;
+}
+
+#matchButton:hover {
+    background-color: #5e3b3b;
+}
+
+#dicesSection {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+#dicesSection img {
+    padding: 15px;
+}
