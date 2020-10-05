@@ -1,0 +1,27 @@
+.carousel-caption {
+    transform: translate(30%, -250%);
+}
+
+.navbar {
+    background-color: rgb(175, 174, 174);
+}
+
+.carousel-item img {
+    opacity: 0.6;
+}
+
+.carousel-item h1 {
+    color: black;
+}
+
+.features {
+    padding: 50px 0;
+}
+
+.menu {
+    padding: 50px 0;
+}
+
+footer {
+    padding: 50px 0;
+}
