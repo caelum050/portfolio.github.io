@@ -1,0 +1,298 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ffffff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+/*----------Header----------*/
+
+header {
+    height: 10vh;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 35px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    color: #555;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #555;;
+}
+
+
+
+
+/*----------Presentation----------*/
+
+.presentation {
+    height: 100vh;
+    background-image: url(Images/laptop-2298286.png);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.presentation-text {
+    text-align: center;
+    position: relative;
+    top: 45%;
+}
+
+
+/*----------About Me----------*/
+
+
+.me {
+    width: 100%;
+    height: 50vh;
+    padding: 50px 5px;
+    background-color: #e5eaf5;
+}
+
+.me-text {
+    
+    text-align: center;
+    padding-top: 50px;   
+}
+
+.me-text p {
+    padding-top: 50px;
+}
+
+
+/*----------Skills----------*/
+
+.skills {
+    height: 100vh;
+    padding: 100px 5px;
+    background-color: rgb(216, 216, 216);
+}
+
+.container {
+    display: inline;
+}
+
+.skills li {
+    list-style: none;
+    padding: 10px;
+}
+
+.skill-box {
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 12px;
+    width: 95%;
+    height: 600px;
+    text-align: center;
+    margin: 10px;
+
+}
+
+.skill-box h2 {
+    margin: 10px;
+}
+
+.skill-box p {
+    margin: 30px;
+}
+
+.list-p {
+    color: cornflowerblue;
+}
+
+
+
+/*----------Personal Projects----------*/
+
+.projects {
+    padding: 35px 10px;
+}
+
+.projects h2, p {
+    text-align: center;
+}
+
+.wrapper {
+    position: relative;
+    margin: 25px;
+    border: 2px solid black;
+    border-radius: 14px;
+    max-width: 95%;
+    max-height: auto;
+    overflow: hidden;
+}
+
+.project-img {
+    width: 100%;
+    object-fit: scale-down;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.wrapper:hover .overlay {
+    opacity: 1;
+  }
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+   
+    transform: translate(-50%, -85%);
+    text-align: center;
+}
+
+.link-inner {
+    color: white;
+    font-size: 20px;
+    color: #fff;
+    background-color: darkviolet;
+    border-radius: 12px;
+    padding: 5px;
+    text-decoration: none;
+}
+
+.buttons {
+    display: table;
+    margin: 0 auto;
+    text-decoration: none;
+    
+    
+}
+
+.wrapper ul {
+    list-style: none;
+    margin: 0;
+    padding-top: 130px;
+}
+
+.wrapper li {
+    float: left;
+    padding: 2px 5px;
+    margin: 2px 5px;
+}
+
+
+/*----------Footer----------*/
+
+footer{
+    text-align: center;
+    background-color: dimgray;
+    color: white;
+    padding: 50px 10px;
+}
+
+
+/*----------Animation----------*/
+
+
+.js--wp-1 {
+    opacity: 0;
+    
+}
+
+.js--wp-1.animate__animated{
+    opacity: 1;
+}
+
+
+/*---------Resolution to 767px----------*/
+
+@media only screen and (min-width: 767px) {
+
+    .me-text p {
+        padding-top: 50px;
+        width: 50%;
+        margin: auto;
+    }
+
+    .skill-box {
+        margin: auto;
+        width: 45%;
+    }
+
+    .wrapper {
+        max-width: 75%;
+        margin: 25px 100px;
+    }
+}
+
+/*---------Resolution to 1023px----------*/
+
+@media only screen and (min-width: 1023px) {
+    .skill-box {
+        width: 35%;
+    }
+
+    .outer {
+        padding: 50px 100px;
+    }
+
+    .wrapper {
+        display: inline-block;
+        width: 35%;
+        margin: 25px 45px;
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .skill-box {
+        width: 25%;
+    }
+
+    .outer {
+        padding: 50px 100px;
+    }
+
+    .wrapper {
+        display: inline-block;
+        width: 35%;
+        margin: 25px 65px;
+    }
+}
