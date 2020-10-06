@@ -1,0 +1,112 @@
+* {
+    background: gray;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.intro {
+    background-color: coral;
+    text-align: center;
+    padding: 10px;
+}
+
+h1,
+h3 {
+    background-color: inherit;
+}
+
+section {
+    padding: 50px 0;
+}
+
+.row {
+    max-width: 1140px;
+    background: inherit;
+    margin: 0 auto;
+}
+
+.add-form {
+    width: 100%;
+    margin: 0 auto;
+    background: khaki;;
+}
+
+.col {
+    display: inline-block;
+    margin: 1% 0 1% 1.6%;
+}
+
+.form-detail {
+    width: 40%;
+}
+
+
+input[type=text],
+input[type=submit],
+select {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+.box {
+    width: 500px;
+    height: 550px;
+    padding: 5px;
+    margin: 30px;
+    border: 1px solid black;
+    background: rgb(110, 101, 190);
+    color: white;
+    display: block;
+    float: left;
+    overflow-y: auto;
+    position: relative;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    cursor: pointer;
+    font-size: 18px;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    list-style-type: none;
+    background: rgb(110, 101, 190);
+}
+
+ul li:hover {
+    background: rgb(119, 113, 168);
+}
+
+h3 {
+    font-size: 35px;
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+    background-color: inherit;
+}
+  
+.close:hover {
+    background-color: #f44336;
+}
+
+.closeAll {
+    padding: 1px;
+    background-color: inherit;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.closeAll:hover {
+    background-color: #f44336;
+}

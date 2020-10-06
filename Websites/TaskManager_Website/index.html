@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ToDoList</title>
+</head>
+
+<body>
+    <main>
+        <div class="intro">
+            <h1>Task Manager</h1>
+            <h3>Keep activities and task organized</h3>
+        </div>
+
+        <section>
+            <div class="row">
+                <div class="add-form">
+                    <div class="col form-detail">
+                        <select name="add-new" id="new-option">
+                            <option value="activity">Activity</option>
+                            <option value="task">Task</option>
+                        </select>
+                    </div>
+                    <div class="col form-detail">
+                        <select name="choose" id="choose-activity">
+                            <option>Choose Activity to Add</option>
+                        </select>
+                    </div>
+                    <div class="col form-detail">
+                        <input type="text" name="value" id="value" placeholder="Add new" required>
+                    </div>
+                    <div class="col form-detail">
+                        <input onclick="activity()" type="submit" value="Add">
+                    </div>   
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div id="activity-container">
+
+            </div>
+
+        </section>
+ 
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
