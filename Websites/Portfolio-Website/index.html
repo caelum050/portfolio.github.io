@@ -1,141 +1,325 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="style.css">
-    <title>Edwin Lima Portfolio</title>
-</head>
-<body>
-    <header class="l-header">
-        <nav class="nav bd-grid">
-            <div>
-                <a href="#" class="nav_logo">Portfolio</a>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-            <div class="nav_menu" id="nav-menu">
-                <ul class="nav_list">
-                    <li class="nav_item"><a href="#home" class="nav_link active">Home</a></li>
-                    <li class="nav_item"><a href="#about" class="nav_link">About Me</a></li>
-                    <li class="nav_item"><a href="#skills" class="nav_link">Skills</a></li>
-                    <li class="nav_item"><a href="#projects" class="nav_link">Projects</a></li>
-                </ul>
-            </div>
+    <!--=============== FONT ===============-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Luxurious+Roman&family=Montserrat:wght@500;600&family=Poppins:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
 
-            <div class="nav_toggle" id="nav-toggle">
-                <i class='bx bx-menu'></i>
-            </div>
-        </nav>
+    <!--=============== BOXICONS ===============-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== ICONS ===============-->
+    <link rel="stylesheet" href="assets/css/icon-fonts.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Personal Portfolio</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+
+    <header class="header" id="header">
+      <div class="text-box">
+        <h1 class="heading-primary">Hello there!<span></span></h1>
+        <h1 class="heading-primary">My Name is Edwin Lima<span></span></h1>
+      </div>
+
+      <!-- <nav class="nav container">
+        <div class="nav__menu">
+          <ul class="nav__menu--list">
+            <li class="nav__item">
+              <a href="#" class="nav__link active-link">
+                <i class="nav__link--icon icon-basic-home"></i>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                <i class="nav__link--icon icon-basic-male"></i>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                <i class="nav__link--icon icon-basic-pencil-ruler-pen"></i>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                <i class="nav__link--icon icon-basic-book-pen"></i>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">
+                <i class="nav__link--icon icon-basic-lightbulb"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav> -->
     </header>
 
-    <main class="l-main">
-        <section class="home" id="home">
-            <div class="home_container bd-grid">
-                <h1 class="home_title">Web Developer</h1>
-                <h3 class="home_desc_title">Love to design and code beautiful websites</h3>
-                <div class="home_scroll">
-                    <a href="#about" class="home_scroll-link"><i class='bx bx-up-arrow-alt'></i>Scroll Down</a>
+    <!--=============== MAIN ===============-->
+
+    <main>
+
+      <!-- <footer class="footer">
+        <div class="footer__grid-container">
+          
+            <p class="footer__copyright">
+              This website was created by Edwin Lima for portfolio purposes.
+            </p>
+          
+        </div>
+      </footer> -->
+
+      <!--=============== ABOUT ===============-->
+      <section class="section-about">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">Pleased To Meet You</h2>
+        </div>
+
+        <div class="about">
+          
+            <p class="about__text">
+              I'm a developer and art enthusiastic who love to learn new programming languages and very curious in learning new technologies. <br/> Love to design and code beautiful web sites and apps and experiment to improve my skills.
+            </p>
+          
+        </div>
+      </section>
+
+
+      <!--=============== SKILLS ===============-->
+
+      <section class="section-skills">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">My Skills</h2>
+        </div>
+
+        <div class="grid-container">
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__icon">
+                  <i class="card__icon--1 icon-basic-webpage"></i>
                 </div>
-                <img src="Images/laptop-2298286.png" alt="" class="home_img">
+                <div class="card__heading">Front-End Developer</div>
+                <div class="card__details">
+                  I like to design and build web pages from scratch. I love the
+                  challenge of building multiple components and putting them
+                  together into one final piece.
+                </div>
+                <div class="card__bottom">
+                  More behind <span>--></span></i>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-1">
+                <div class="card__cta">
+                  <div class="card__details">
+                    <ul>
+                      <li>Html</li>
+                      <li>Css</li>
+                      <li>Sass</li>
+                      <li>Javascript</li>
+                      <li>Angular</li>
+                      <li>React</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
-        </section>
-
-        <section class="about section" id="about">
-            <h2 class="section-title">About</h2>
-
-            <div class="about_container bd-grid">
-                <div>
-                    <h2 class="about_subtitle">Hi! I'm Edwin Lima<br>Pleased to meet you</h2>
-                    <p class="about_text">I'm a developer and art enthusiastic who love to learn new programming languages and very curious in learning new technologies. Love to design and code beautiful web sites and experiment to improve my skills.</p>
+          </div>
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__icon">
+                  <i class="card__icon--2 icon-basic-server"></i>
                 </div>
+                <div class="card__heading">Back-End Developer</div>
+                <div class="card__details">
+                  I like to create procedures and queries that manipulate and take care of bringing the information to the front end.
+                </div>
+                <div class="card__bottom">
+                  More behind <span>--></span></i>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-2">
+                <div class="card__cta">
+                  <div class="card__details">
+                    <ul>
+                      <li>MySQL</li>
+                      <li>SQL Server</li>
+                      <li>MongoDB</li>
+                      <li>Node</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
-        </section>
-        
-        <section class="skills section" id="skills">
-            <h2 class="section-title">Skills</h2>
-
-            <div class="skills_container bd-grid">
-                <div class="skills_box">
-                    <h3 class="skills_subtitle">Front-End</h3>
-                    <span class="skills_name">Html</span>
-                    <span class="skills_name">Css</span>
-                    <span class="skills_name">Javascript</span>
-                    <span class="skills_name">JQuery</span>
-                    <span class="skills_name">Bootstrap</span>
-                    <span class="skills_name">Wordpress</span>
-                    <span class="skills_name">Github</span>
-
-                    <h3 class="skills_subtitle">Back-End</h3>
-                    <span class="skills_name">PHP</span>
-                    <span class="skills_name">Node</span>
-                    <span class="skills_name">Express</span>
-                    <span class="skills_name">MongoDB</span>
+          </div>
+          <div class="col-1-of-3">
+            <div class="card">
+              <div class="card__side card__side--front">
+                <div class="card__icon">
+                  <i class="card__icon--3 icon-basic-smartphone"></i>
                 </div>
+                <div class="card__heading">App Developer</div>
+                <div class="card__details">
+                  I like to create the interfaces with which the user interacts in his day to day.
+                </div>
+                <div class="card__bottom">
+                  More behind <span>--></span></i>
+                </div>
+              </div>
+              <div class="card__side card__side--back card__side--back-3">
+                <div class="card__cta">
+                  <div class="card__details">
+                    <ul>
+                      <li>Flutter</li>
+                      <li>iOS</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
             </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <section class="projects section" id="projects">
-            <h2 class="section-title">Projects</h2>
+      <!--=============== PROJECTS ===============-->
+      <section class="section-projects">
+        <div class="u-center-text u-margin-bottom-big">
+          <h2 class="heading-secondary">My Projects</h2>
+        </div>
 
-            <div class="projects_container bd-grid">
-
-                <div class="project_img">
-                    <img src="Images/Project-Images/Screen Shot 2020-10-04 at 5.24.50 PM.png">
-
-                    <div class="project_link">
-                        <p class="project_link-name">Art supplies store mockup<br>HTML | CSS | Javascript</p>
-                        <a href="https://caelum050.github.io/portfolio.github.io/Websites/DrawingDreams_Website/" class="project_link-name">View Page</a>
-                        <a href="https://github.com/caelum050/portfolio.github.io/tree/master/Websites/DrawingDreams_Website" class="project_link-name">View Code</a>
-                    </div>        
-                </div>
-
-                <div class="project_img">
-                    <img src="Images/Project-Images/Screen Shot 2020-10-04 at 5.25.24 PM.png">
-
-                    <div class="project_link">
-                        <p class="project_link-name">Japanese food restaurant mockup<br>HTML | CSS | Bootstrap</p>
-                        <a href="https://caelum050.github.io/portfolio.github.io/Websites/JapanRestaurant_Website/" class="project_link-name">View Page</a>
-                        <a href="https://github.com/caelum050/portfolio.github.io/tree/master/Websites/JapanRestaurant_Website" class="project_link-name">View Code</a>
+        <div class="projects">
+          <ul class="projectCards">
+            <li>
+              <div class="projectCard">
+                <img src="./assets/img/Project-Images/Screen Shot 2020-10-04 at 5.24.50 PM.png" alt="project-image-01" class="projectCard__image">
+                <div class="projectCard__overlay">
+                  <div class="projectCard__header">
+                    <div class="projectCard__header--text">
+                      <h3 class="projectCard__title">Art supplies store mockup</h3>
                     </div>
+                    
+                    <span class="projectCard__tools">HTML | CSS | Javascript</span>
+                  </div>
+                  <div class="projectCard__links">
+                    <a href="https://caelum050.github.io/portfolio.github.io/Websites/DrawingDreams_Website" target="_blank" class="btn btn--white btn--animated">View Page</a>
+                    <a href="https://github.com/caelum050/portfolio.github.io/tree/master/Websites/DrawingDreams_Website" target="_blank" class="btn btn--white btn--animated">View Code</a>
+                  </div>
                 </div>
+              </div>
+            </li>
 
-                <div class="project_img">
-                    <img src="Images/Project-Images/Screen Shot 2020-10-04 at 5.26.29 PM.png">
-
-                    <div class="project_link">
-                        <p class="project_link-name">Dice match game<br>HTML | CSS | Javascript</p>
-                        <a href="https://caelum050.github.io/portfolio.github.io/Websites/MatchTheDice_Website/" class="project_link-name">View Page</a>
-                        <a href="https://github.com/caelum050/portfolio.github.io/tree/master/Websites/MatchTheDice_Website" class="project_link-name">View Code</a>
+            <li>
+              <div class="projectCard">
+                <img src="./assets/img/Project-Images/Screen Shot 2020-10-04 at 5.25.24 PM.png" alt="project-image-01" class="projectCard__image">
+                <div class="projectCard__overlay">
+                  <div class="projectCard__header">
+                    <div class="projectCard__header--text">
+                      <h3 class="projectCard__title">Japanese food restaurant mockup</h3>
                     </div>
+                    
+                    <span class="projectCard__tools">HTML | CSS | Bootstrap</span>
+                  </div>
+                  <div class="projectCard__links">
+                    <a href="https://caelum050.github.io/portfolio.github.io/Websites/JapanRestaurant_Website/" target="_blank" class="btn btn--white btn--animated">View Page</a>
+                    <a href="https://github.com/caelum050/portfolio.github.io/tree/master/Websites/JapanRestaurant_Website" target="_blank" class="btn btn--white btn--animated">View Code</a>
+                  </div>
                 </div>
+              </div>
+            </li>
 
-                <div class="project_img">
-                    <img src="Images/Project-Images/Screen Shot 2020-10-04 at 5.26.57 PM.png">
-
-                    <div class="project_link">
-                        <p class="project_link-name">Task Management App<br>HTML | CSS | Javascript</p>
-                        <a href="https://caelum050.github.io/portfolio.github.io/Websites/TaskManager_Website/" class="project_link-name">View Page</a>
-                        <a href="https://github.com/caelum050/portfolio.github.io/tree/master/Websites/TaskManager_Website" class="project_link-name">View Code</a>
+            <li>
+              <div class="projectCard">
+                <img src="./assets/img/Project-Images/Screen Shot 2020-10-04 at 5.26.29 PM.png" alt="project-image-01" class="projectCard__image">
+                <div class="projectCard__overlay">
+                  <div class="projectCard__header">
+                    <div class="projectCard__header--text">
+                      <h3 class="projectCard__title">Dice match game</h3>
                     </div>
+                    
+                    <span class="projectCard__tools">HTML | CSS | Javascript</span>
+                  </div>
+                  <div class="projectCard__links">
+                    <a href="https://caelum050.github.io/portfolio.github.io/Websites/MatchTheDice_Website/" target="_blank" class="btn btn--white btn--animated">View Page</a>
+                    <a href="https://github.com/caelum050/portfolio.github.io/tree/master/Websites/MatchTheDice_Website" target="_blank" class="btn btn--white btn--animated">View Code</a>
+                  </div>
                 </div>
-                
-            </div>
-        </section>
+              </div>
+            </li>
 
-        <footer class="footer section">
-            <div class="footer_container bd-grid">
-                <div class="footer_data">
-                    <p class="footer_text">This website was created for portfolio purposes.</p>
-                    <p class="footer_text">Developed by Edwin Lima in Panama City, Panama in October 2020.</p>
+            <li>
+              <div class="projectCard">
+                <img src="./assets/img/Project-Images/manager-project.png" alt="project-image-01" class="projectCard__image">
+                <div class="projectCard__overlay">
+                  <div class="projectCard__header">
+                    <div class="projectCard__header--text">
+                      <h3 class="projectCard__title">Task Management App</h3>
+                    </div>
+                    
+                    <span class="projectCard__tools">HTML | CSS | Javascript</span>
+                  </div>
+                  <div class="projectCard__links">
+                    <a href="https://caelum050.github.io/portfolio.github.io/Websites/TaskManager_Website/" target="_blank" class="btn btn--white btn--animated">View Page</a>
+                    <a href="https://github.com/caelum050/portfolio.github.io/tree/master/Websites/TaskManager_Website" target="_blank" class="btn btn--white btn--animated">View Code</a>
+                  </div>
                 </div>
-            </div>
-        </footer>
+              </div>
+            </li>
+
+            <li>
+              <div class="projectCard">
+                <img src="./assets/img/Project-Images/recipe-project.png" alt="project-image-01" class="projectCard__image">
+                <div class="projectCard__overlay">
+                  <div class="projectCard__header">
+                    <div class="projectCard__header--text">
+                      <h3 class="projectCard__title">Recipes Manager</h3>
+                    </div>
+                    
+                    <span class="projectCard__tools">HTML | CSS | React</span>
+                  </div>
+                  <div class="projectCard__links">
+                    <a href="https://cooking-japanes-react-web.web.app/" target="_blank" class="btn btn--white btn--animated">View Page</a>
+                    <a href="https://github.com/caelum050/recipes" target="_blank" class="btn btn--white btn--animated">View Code</a>
+                  </div>
+                </div>
+              </div>
+            </li>
+            
+          </ul>
+          
+        </div>
+
+      </section>
+
+      
+
 
     </main>
-    
 
-    <script src="https://unpkg.com/scrollreveal"></script>
-    <script src="script.js"></script>
-</body>
+    <!--=============== FOOTER ===============-->
+
+    <footer class="footer">
+      <div class="footer__grid-container">
+        
+          <p class="footer__copyright">
+            This website was created by Edwin Lima for portfolio purposes.
+          </p>
+        
+      </div>
+    </footer>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
