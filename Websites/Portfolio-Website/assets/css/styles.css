@@ -383,8 +383,8 @@ body {
   text-transform: uppercase;
 }
 .card__details {
-  padding: 3rem;
-  font-size: 1.5rem;
+  padding: 1rem;
+  font-size: 1.2rem;
 }
 .card__details ul {
   list-style: none;
@@ -394,7 +394,7 @@ body {
 }
 .card__details ul li {
   text-align: center;
-  padding: 0.5rem;
+  padding: 0.2rem;
 }
 .card__details ul li:not(:last-child) {
   border-bottom: 1px solid #eee;
