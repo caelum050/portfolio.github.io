@@ -28,6 +28,9 @@ const timelineContainer2 = document.querySelector(
 const timelineContainer3 = document.querySelector(
   ".timeline-container-anim-03"
 );
+const timelineContainer4 = document.querySelector(
+  ".timeline-container-anim-04"
+);
 
 const skillsHeader = document.querySelector(".header-skills");
 const skillCard1 = document.querySelector(".card-anim-01");
@@ -47,6 +50,7 @@ aboutSubTitle.classList.remove("anim-header-fade-up");
 timelineContainer1.classList.remove("anim-header-fade-left");
 timelineContainer2.classList.add("anim-header-fade-right");
 timelineContainer3.classList.add("anim-header-fade-left");
+timelineContainer4.classList.add("anim-header-fade-right")
 skillsHeader.classList.remove("anim-header-fade-down");
 skillCard1.classList.remove("anim-header-fade-up");
 skillCard2.classList.remove("anim-header-fade-up");
@@ -102,11 +106,12 @@ const observer = new IntersectionObserver((entries) => {
       case "timeline-job":
         if (entry.isIntersecting) {
           timelineContainer3.classList.add("anim-header-fade-left");
-
+          timelineContainer4.classList.add("anim-header-fade-right")
           return;
         }
 
         timelineContainer3.classList.remove("anim-header-fade-left");
+        timelineContainer4.classList.remove("anim-header-fade-right");
 
         break;
 
