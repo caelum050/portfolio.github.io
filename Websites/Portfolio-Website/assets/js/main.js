@@ -112,7 +112,7 @@ const observer = new IntersectionObserver((entries) => {
       case "timeline-job":
         if (entry.isIntersecting) {
           timelineContainer4.classList.add("anim-header-fade-left");
-          timelineContainer5.classList.add("anim-header-fade-right")
+          timelineContainer5.classList.add("anim-header-fade-right");
           return;
         }
 
